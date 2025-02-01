@@ -11,6 +11,7 @@ export default {
          grey_blue: "#4E5D73",
          dark_grey:"#323A49",
          dark_blue: "#1F2632",
+         turquoise: "#1ABC9C",
        }
     },
   },

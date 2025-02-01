@@ -3,7 +3,7 @@
 const StyledButton = ({ children, onClick }) => {
   return (
     <button
-      className="p-4 rounded-full bg-neon_green hover:bg-green-300 transition-colors"
+      className=" p-4 rounded-full bg-turquoise hover:bg-turquoise hover:shadow-lg hover:shadow-turquoise transition-all"
       onClick={onClick}
     >
       {children}
@@ -11,3 +11,5 @@ const StyledButton = ({ children, onClick }) => {
   );
 };
 export default StyledButton;
+
+
