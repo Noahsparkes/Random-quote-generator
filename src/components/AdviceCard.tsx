@@ -3,6 +3,7 @@ import { adviceService } from '../services/adviceService';
 import { AdviceSlip } from '../types/AdviceTypes';
 import DiceIcon from "./DiceIcon";
 import StyledButton from './StyledButton';
+import "../App.css";
 
 const AdviceCard = () => {
   const [advice, setAdvice] = useState<AdviceSlip>({
@@ -46,8 +47,9 @@ const AdviceCard = () => {
 
             {/* Divider */}
             <div className="relative h-16">
+              {/* Desktop SVG */}
               <svg
-                className="absolute bottom-0 left-0 right-0 mx-auto w-full flex justify-center"
+                className="divider-desktop absolute bottom-0 left-0 right-0 mx-auto w-full flex justify-center"
                 width="444"
                 height="16"
                 xmlns="http://www.w3.org/2000/svg"
@@ -57,6 +59,22 @@ const AdviceCard = () => {
                   <g transform="translate(185)" fill="#CEE3E9" >
                     <rect width="6" height="16" rx="3" />
                     <rect x="14" width="6" height="16" rx="3" />
+                  </g>
+                </g>
+              </svg>
+
+              {/* Mobile SVG */}
+              <svg
+                className="divider-mobile absolute bottom-0 left-0 right-0 mx-auto w-full flex justify-center"
+                width="295"
+                height="16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g fill="none" fill-rule="evenodd">
+                  <path fill="#4F5D74" d="M0 8h124v1H0zM173 8h122v1H173z"/>
+                  <g transform="translate(140)" fill="#CEE3E9">
+                    <rect width="6" height="16" rx="3"/>
+                    <rect x="14" width="6" height="16" rx="3"/>
                   </g>
                 </g>
               </svg>

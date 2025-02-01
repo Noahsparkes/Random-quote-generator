@@ -1,2 +1,49 @@
-/* This is often used for styles specific to your App component or for styles that are widely used but not entirely global.
-In a Tailwind project, you might not need this file at all. */
+/* Desktop SVG */
+.divider-desktop {
+    display: block;
+  }
+  
+  /* Mobile SVG */
+  .divider-mobile {
+    display: none;
+  }
+  
+  /* Media query for iPhone SE and smaller */
+  @media only screen and (max-width: 320px) {
+    .divider-desktop {
+      display: none;
+    }
+    .divider-mobile {
+      display: block;
+    }
+  }
+  
+  /* Media query for iPhone 8 and smaller */
+  @media only screen and (max-width: 375px) {
+    .divider-desktop {
+      display: none;
+    }
+    .divider-mobile {
+      display: block;
+    }
+  }
+  
+  /* Media query for iPhone X and smaller */
+  @media only screen and (max-width: 414px) {
+    .divider-desktop {
+      display: none;
+    }
+    .divider-mobile {
+      display: block;
+    }
+  }
+  
+  /* Media query for larger screens */
+  @media only screen and (min-width: 768px) {
+    .divider-desktop {
+      display: block;
+    }
+    .divider-mobile {
+      display: none;
+    }
+  }
