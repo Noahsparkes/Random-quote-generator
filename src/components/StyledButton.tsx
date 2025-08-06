@@ -1,6 +1,9 @@
-//import React from 'react';
-
-const StyledButton = ({ children, onClick }) => {
+import { ReactNode } from 'react';
+type StyledButtonProps = {
+  children: ReactNode;
+  onClick: () => void;
+};
+const StyledButton = ({ children, onClick }: StyledButtonProps) => {
   return (
     <button
       className=" p-4 rounded-full bg-turquoise hover:bg-turquoise hover:shadow-lg hover:shadow-turquoise transition-all"

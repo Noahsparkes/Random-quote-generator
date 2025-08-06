@@ -1,4 +1,3 @@
-// src/services/adviceService.ts
 import { AdviceResponse } from '../types/AdviceTypes';
 
 const BASE_URL = 'https://api.adviceslip.com/advice';

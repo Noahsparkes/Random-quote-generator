@@ -1,5 +1,3 @@
-// src/types/AdviceTypes.ts
-
 // This matches the API response structure
 export interface AdviceSlip {
     id: number;

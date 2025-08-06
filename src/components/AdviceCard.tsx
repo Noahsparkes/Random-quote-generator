@@ -29,9 +29,9 @@ const AdviceCard = () => {
 
   return (
     <div className="flex justify-center items-center h-screen">
-      {/* Wrapper div (NO overflow restriction) */}
+      {/* Wrapper div */}
       <div className="relative max-w-md mx-auto m-4" style={{ width: '900px' }}>
-        {/* Card container (overflow hidden to preserve rounding, but wrapper allows overflow) */}
+        {/* Card container  */}
         <div className="bg-black rounded-2xl shadow-lg overflow-hidden">
           {/* Card content */}
           <div className="p-8 bg-dark_grey h-80 flex flex-col relative rounded-2xl">
@@ -41,9 +41,15 @@ const AdviceCard = () => {
             </h2>
 
             {/* Advice text */}
-            <p className="text-center text-2xl font-bold text-light_cyan">
-              &quot;{advice?.advice}&quot;
-            </p>
+              {loading ? (
+                <p className="text-center text-xl font-semibold text-light_cyan">Loading...</p>
+              ) : error ? (
+                <p className="text-center text-xl font-semibold text-red-400">{error}</p>
+              ) : (
+                <p className="text-center text-2xl font-bold text-light_cyan">
+                  &quot;{advice?.advice}&quot;
+                </p>
+              )}
 
             {/* Divider */}
             <div className="relative h-16">
@@ -82,7 +88,7 @@ const AdviceCard = () => {
           </div>
         </div>
 
-        {/* Dice button (placed outside the card so it overflows correctly) */}
+        {/* Dice button  */}
         <div className="absolute left-1/2 transform -translate-x-1/2 bottom-[-20px] flex justify-center z-10">
           <StyledButton onClick={getAdvice}>
             <DiceIcon />

@@ -1,4 +1,3 @@
-// src/App.tsx
 import AdviceCard from './components/AdviceCard';
 
 function App() {
