@@ -55,7 +55,7 @@ const AdviceCard = () => {
             <div className="relative h-16">
               {/* Desktop SVG */}
               <svg
-                className="divider-desktop absolute bottom-0 left-0 right-0 mx-auto w-full flex justify-center"
+                className="hidden md:flex divider-desktop absolute bottom-0 left-0 right-0 mx-auto w-full justify-center"
                 width="444"
                 height="16"
                 xmlns="http://www.w3.org/2000/svg"
@@ -71,7 +71,7 @@ const AdviceCard = () => {
 
               {/* Mobile SVG */}
               <svg
-                className="divider-mobile absolute bottom-0 left-0 right-0 mx-auto w-full flex justify-center"
+                className="flex md:hidden divider-mobile absolute bottom-0 left-0 right-0 mx-auto w-full justify-center"
                 width="295"
                 height="16"
                 xmlns="http://www.w3.org/2000/svg"
