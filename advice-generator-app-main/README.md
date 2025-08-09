@@ -1,27 +1,28 @@
-# 🧠 Random Quote Generator
+# 🎲 Random Quote Generator  
 
-This is a React + TypeScript app that fetches random advice using the [Advice Slip API](https://api.adviceslip.com). It’s clean, simple, and demonstrates API handling, component logic, and error/loading states in a modern frontend stack.
+A simple yet stylish app that fetches and displays random quotes at the click of a button. Built as part of a Frontend Mentor challenge, this project focuses on API integration, clean UI design, and smooth state updates.  
 
-## 🚀 Live Demo
-(Coming soon via Vercel!)
+## 🚀 Live Demo  
+[View Live Site](https://random-quote-generator-tau-sepia.vercel.app/)  
 
-## 🔧 Tech Stack
-- React
-- TypeScript
-- TailwindCSS
-- Advice Slip API
+## ✨ Features  
+- 🎯 Fetches quotes from a public API  
+- 🔄 Generates a new quote on button click  
+- 🎨 Responsive design for desktop & mobile  
+- ⚡ Basic loadstate & Animated button feedback  
 
-## 📸 Preview
-![Screenshot](./screenshot.png)
+## 🛠️ Tech Stack  
+- **TypeScript**  
+- **React**  
+- **Styled Components**  
+- **Vite** (build tool)  
+- **REST API** for quotes  
 
-## 🛠️ Features
-- Pulls random quotes from a public API
-- Handles loading and error states
-- Fully responsive UI with TailwindCSS
+## 📸 Preview  
+![Random Quote Generator Screenshot](./images/Screenshot%202025-08-09%20at%2019.44.41.png)  
 
-## 🧪 How to Run Locally
-```bash
-git clone https://github.com/Noahsparkes/Random-quote-generator.git
-cd Random-quote-generator
-npm install
-npm run dev
+## 🔧 Running Locally  
+1. Clone the repo:  
+   ```bash
+   git clone https://github.com/Noahsparkes/random-quote-generator.git
+
