@@ -19,7 +19,7 @@ A simple yet stylish app that fetches and displays random quotes at the click of
 - **REST API** for quotes  
 
 ## 📸 Preview  
-![Random Quote Generator Screenshot](./images/Screenshot%202025-08-09%20at%2019.44.41.png)  
+![Random Quote Generator Screenshot](./advice-generator-app-main/images/Screenshot%202025-08-09%20at%2019.44.41.png)  
 
 ## 🔧 Running Locally  
 1. Clone the repo:  
