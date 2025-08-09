@@ -26,3 +26,11 @@ A simple yet stylish app that fetches and displays random quotes at the click of
    ```bash
    git clone https://github.com/Noahsparkes/random-quote-generator.git
 
+## Navigate to project folder
+2. cd random-quote-generator
+   
+## Install dependancies
+3. npm install
+   
+## Start the development server
+4. npm run dev
